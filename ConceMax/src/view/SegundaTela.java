@@ -45,7 +45,7 @@ public class SegundaTela extends JFrame {
 	 */
 	public SegundaTela() {
 		setResizable(false);
-		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\pngwing.com.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\pngwing.com.png"));
 		setTitle("Menu");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 431);
@@ -63,7 +63,7 @@ public class SegundaTela extends JFrame {
 				frame.setVisible(true);	
 			}
 		});
-		btnNewButton_3.setIcon(new ImageIcon("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\adicionar-usuario (2).png"));
+		btnNewButton_3.setIcon(new ImageIcon("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\adicionar-usuario (2).png"));
 		menuBar.add(btnNewButton_3);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));

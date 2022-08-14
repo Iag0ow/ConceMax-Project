@@ -108,7 +108,7 @@ public class ConsultaVeiculos extends JFrame {
 	}
 	
 	public ConsultaVeiculos() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\bin\\icons\\pngwing.com.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\pngwing.com.png"));
 		conexao = ConexaoBanco.conector();
 		setTitle("Consultar Veiculos");
 		setResizable(false);
@@ -122,7 +122,7 @@ public class ConsultaVeiculos extends JFrame {
 		
 		JButton btnSalvar = new JButton("S\u0332alvar");
 		btnSalvar.setHorizontalAlignment(SwingConstants.LEFT);
-		btnSalvar.setIcon(new ImageIcon("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\verifica.png"));
+		btnSalvar.setIcon(new ImageIcon("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\verifica.png"));
 		btnSalvar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Editar();
@@ -136,7 +136,7 @@ public class ConsultaVeiculos extends JFrame {
 		
 		JButton btnExcluir = new JButton("E\u0332xcluir");
 		btnExcluir.setHorizontalAlignment(SwingConstants.LEFT);
-		btnExcluir.setIcon(new ImageIcon("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\excluir_1.png"));
+		btnExcluir.setIcon(new ImageIcon("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\excluir_1.png"));
 		btnExcluir.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Excluir();
@@ -150,7 +150,7 @@ public class ConsultaVeiculos extends JFrame {
 		
 		JButton btnVoltar = new JButton("V\u0332oltar");
 		btnVoltar.setHorizontalAlignment(SwingConstants.LEFT);
-		btnVoltar.setIcon(new ImageIcon("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\de-volta.png"));
+		btnVoltar.setIcon(new ImageIcon("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\de-volta.png"));
 		btnVoltar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				SegundaTela frame = new SegundaTela();			

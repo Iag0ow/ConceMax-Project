@@ -92,7 +92,7 @@ public class CadastroVeiculos extends JFrame {
 	
 	//Construtor
 	public CadastroVeiculos() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\pngwing.com.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\pngwing.com.png"));
 		conexao = ConexaoBanco.conector();
 		
 		setResizable(false);
@@ -124,7 +124,7 @@ public class CadastroVeiculos extends JFrame {
 		txtAno.setColumns(10);
 		
 		JButton btnGravar = new JButton("G\u0332ravar Dados");
-		btnGravar.setIcon(new ImageIcon("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\verifica.png"));
+		btnGravar.setIcon(new ImageIcon("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\verifica.png"));
 		btnGravar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Cadastrar();
@@ -153,7 +153,7 @@ public class CadastroVeiculos extends JFrame {
 		lblNewLabel_5.setFont(new Font("Tahoma", Font.BOLD, 15));
 		
 		JButton btnVoltar = new JButton("V\u0332oltar");
-		btnVoltar.setIcon(new ImageIcon("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\de-volta.png"));
+		btnVoltar.setIcon(new ImageIcon("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\de-volta.png"));
 		btnVoltar.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		btnVoltar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

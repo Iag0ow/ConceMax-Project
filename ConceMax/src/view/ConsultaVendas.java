@@ -95,7 +95,7 @@ public class ConsultaVendas extends JFrame {
 	 }
 	}
 	public ConsultaVendas() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\pngwing.com.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\pngwing.com.png"));
 		setTitle("Relat\u00F3rio de Vendas");
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -143,7 +143,7 @@ public class ConsultaVendas extends JFrame {
 			}
 		});
 		btnPesquisar.setHorizontalAlignment(SwingConstants.LEADING);
-		btnPesquisar.setIcon(new ImageIcon("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\simbolo-de-interface-de-lupa-de-pesquisa (1).png"));
+		btnPesquisar.setIcon(new ImageIcon("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\simbolo-de-interface-de-lupa-de-pesquisa (1).png"));
 		btnPesquisar.setBounds(269, 46, 113, 23);
 		contentPane.add(btnPesquisar);
 		
@@ -169,7 +169,7 @@ public class ConsultaVendas extends JFrame {
 			}
 		});
 		btnNewButton.setHorizontalAlignment(SwingConstants.LEADING);
-		btnNewButton.setIcon(new ImageIcon("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\de-volta.png"));
+		btnNewButton.setIcon(new ImageIcon("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\de-volta.png"));
 		btnNewButton.setBounds(384, 265, 97, 30);
 		contentPane.add(btnNewButton);
 	}

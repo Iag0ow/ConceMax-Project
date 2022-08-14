@@ -96,7 +96,7 @@ public class Pdv extends JFrame {
 	 * Construtor
 	 */
 	public Pdv() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\pngwing.com.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\pngwing.com.png"));
 		setTitle("PDV");
 		setResizable(false);
 		
@@ -113,7 +113,7 @@ public class Pdv extends JFrame {
 		JLabel txtMarca = new JLabel("-----");
 		JLabel txtAno = new JLabel("-----");
 		JButton btnVoltar = new JButton("V\u0332oltar");
-		btnVoltar.setIcon(new ImageIcon("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\de-volta.png"));
+		btnVoltar.setIcon(new ImageIcon("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\de-volta.png"));
 		btnVoltar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				SegundaTela frame = new SegundaTela();			
@@ -123,7 +123,7 @@ public class Pdv extends JFrame {
 		});
 		
 		JButton btnVender = new JButton("V\u0332ender");
-		btnVender.setIcon(new ImageIcon("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\etiqueta-de-venda_1.png"));
+		btnVender.setIcon(new ImageIcon("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\etiqueta-de-venda_1.png"));
 		btnVender.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				vender();

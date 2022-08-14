@@ -76,7 +76,7 @@ public class CadastroUsuario extends JFrame {
 	
 	
 	public CadastroUsuario() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\pngwing.com.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\pngwing.com.png"));
 		conexao = ConexaoBanco.conector();
 		setTitle("Cadastro de Usu\u00E1rios");
 		setResizable(false);
@@ -129,7 +129,7 @@ public class CadastroUsuario extends JFrame {
 		});
 		btnSalvar.setVerticalAlignment(SwingConstants.TOP);
 		btnSalvar.setHorizontalAlignment(SwingConstants.LEFT);
-		btnSalvar.setIcon(new ImageIcon("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\salve- (1).png"));
+		btnSalvar.setIcon(new ImageIcon("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\salve- (1).png"));
 		btnSalvar.setBounds(21, 262, 114, 33);
 		contentPane.add(btnSalvar);
 		
@@ -141,12 +141,12 @@ public class CadastroUsuario extends JFrame {
 				frame.setVisible(true);	
 			}
 		});
-		btnCancelar.setIcon(new ImageIcon("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\cancelar.png"));
+		btnCancelar.setIcon(new ImageIcon("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\cancelar.png"));
 		btnCancelar.setBounds(223, 262, 123, 33);
 		contentPane.add(btnCancelar);
 		
 		JLabel lblNewLabel_4 = new JLabel("");
-		lblNewLabel_4.setIcon(new ImageIcon("C:\\Users\\Levi\\eclipse-workspace\\InterfaceGrafica.4.0Vers\u00E3o\\src\\icons\\adicionar-usuario.png"));
+		lblNewLabel_4.setIcon(new ImageIcon("C:\\Users\\Iago\\git\\ConceMax-Project\\ConceMax\\src\\icons\\adicionar-usuario.png"));
 		lblNewLabel_4.setBounds(21, -3, 54, 44);
 		contentPane.add(lblNewLabel_4);
 		
